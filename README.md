@@ -1,5 +1,5 @@
 # Hola 
 Nama  : Muhammad Rico Agustian
-Nim   : 3042018272
-Kelas : Teknik Informatika
-Makul : Aplikasi dan Teknologi Web
+<br>Nim   : 3042018272
+<br>Kelas : Teknik Informatika
+<br>Makul : Aplikasi dan Teknologi Web
