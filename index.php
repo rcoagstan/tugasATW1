@@ -14,4 +14,4 @@ $oneplus->ram = "12GB";
 $oneplus->resolusicamera = "48MP";
 $oneplus->harga = "RP 5.900.000";
 
-echo "$bmw->merk";
+echo "$oneplus->merk";
