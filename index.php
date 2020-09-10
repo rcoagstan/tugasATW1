@@ -3,22 +3,81 @@
 echo "Animal <hr>";
 
 class Kucing{
-	public $nama, $jumlah_kaki, $bisa_terbang, $suara, ;
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
 
 }
-
 
 $Kucing = new Kucing;
 $Kucing->nama = "Simpol";
 $Kucing->jumlah_kaki = "4";
 $Kucing->bisa_terbang = "tidak";
-$Kucing->suara = "meong";
+$Kucing->suara = "meongg";
 
-echo " Merk: $Kucing->nama";
+echo " Nama: $Kucing->nama";
 echo "<br>";
-echo " Tipe: $Kucing->jumlah_kaki";
+echo " Jumlah kaki: $Kucing->jumlah_kaki";
 echo "<br>";
-echo " Chipset: $Kucing->bisa_terbang";
+echo " Bisa terbang: $Kucing->bisa_terbang";
 echo "<br>";
-echo " Ram: $Kucing->suara";
+echo " Suara: $Kucing->suara";
+echo "<hr>";
+
+class Anjing{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+
+}
+
+$Anjing = new Anjing;
+$Anjing->nama = "Roki";
+$Anjing->jumlah_kaki = "4";
+$Anjing->bisa_terbang = "tidak";
+$Anjing->suara = "Guk Guk";
+
+echo " Nama: $Anjing->nama";
+echo "<br>";
+echo " Jumlah kaki: $Anjing->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Anjing->bisa_terbang";
+echo "<br>";
+echo " Suara: $Anjing->suara";
+echo "<hr>";
+
+class Elang{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+
+}
+
+$Elang = new Elang;
+$Elang->nama = "Kyloren";
+$Elang->jumlah_kaki = "2";
+$Elang->bisa_terbang = "iya";
+$Elang->suara = "Miiip";
+
+echo " Nama: $Elang->nama";
+echo "<br>";
+echo " Jumlah kaki: $Elang->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Elang->bisa_terbang";
+echo "<br>";
+echo " Suara: $Elang->suara";
+echo "<hr>";
+
+class Angsa{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara, ;
+
+}
+
+$Angsa = new Angsa;
+$Angsa->nama = "Odete";
+$Angsa->jumlah_kaki = "2";
+$Angsa->bisa_terbang = "tidak";
+$Angsa->suara = "Kwaaak";
+
+echo " Nama: $Angsa->nama";
+echo "<br>";
+echo " Jumlah kaki: $Angsa->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Angsa->bisa_terbang";
+echo "<br>";
+echo " Suara: $Angsa->suara";
 echo "<hr>";
