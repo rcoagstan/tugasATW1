@@ -7,16 +7,22 @@ class Smartphone{
 
 
 $oneplus = new Smartphone;
-$oneplus->merk = "oneplus";
-$oneplus->tipe = "oneplus nord";
+$oneplus->merk = "Oneplus";
+$oneplus->tipe = "Oneplus nord";
 $oneplus->chipset = "Snapdragon 765G";
 $oneplus->ram = "12GB";
 $oneplus->resolusicamera = "48MP";
 $oneplus->harga = "RP 5.900.000";
 
-echo "$oneplus->merk";<br>
-echo "$oneplus->tipe";<br>
-echo "$oneplus->chipset";<br>
-echo "$oneplus->ram";<br>
-echo "$oneplus->resolusicamera";<br>
-echo "$oneplus->harga";<br>
+echo " Merk:$oneplus->merk";
+echo "<br>";
+echo " Tipe:$oneplus->tipe";
+echo "<br>";
+echo " Chipset:$oneplus->chipset";
+echo "<br>";
+echo " Ram:$oneplus->ram";
+echo "<br>";
+echo "$ Resolusi Camera:oneplus->resolusicamera";
+echo "<br>";
+echo " Harga:$oneplus->harga";
+echo "<br>";
