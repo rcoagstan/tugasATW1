@@ -1,28 +1,24 @@
 <?php
 
-class Smartphone{
-	public $merk, $tipe, $chipset, $ram, $resolusicamera, $harga;
+echo "Animal <hr>";
+
+class Kucing{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara, ;
 
 }
 
 
-$oneplus = new Smartphone;
-$oneplus->merk = "Oneplus";
-$oneplus->tipe = "Oneplus nord";
-$oneplus->chipset = "Snapdragon 765G";
-$oneplus->ram = "12GB";
-$oneplus->resolusicamera = "48MP";
-$oneplus->harga = "RP 5.900.000";
+$Kucing = new Kucing;
+$Kucing->nama = "Simpol";
+$Kucing->jumlah_kaki = "4";
+$Kucing->bisa_terbang = "tidak";
+$Kucing->suara = "meong";
 
-echo " Merk:$oneplus->merk";
+echo " Merk: $Kucing->nama";
 echo "<br>";
-echo " Tipe:$oneplus->tipe";
+echo " Tipe: $Kucing->jumlah_kaki";
 echo "<br>";
-echo " Chipset:$oneplus->chipset";
+echo " Chipset: $Kucing->bisa_terbang";
 echo "<br>";
-echo " Ram:$oneplus->ram";
-echo "<br>";
-echo "$ Resolusi Camera:oneplus->resolusicamera";
-echo "<br>";
-echo " Harga:$oneplus->harga";
-echo "<br>";
+echo " Ram: $Kucing->suara";
+echo "<hr>";
